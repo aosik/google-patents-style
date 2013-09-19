@@ -1,0 +1,157 @@
+
+#intl_patents {
+  width:85%%;
+  margin:auto;
+}
+
+.patent-bibdata {
+  width:500px !important;
+}
+
+abstract div {
+  padding-right:525px;
+}
+
+@mixin serif {
+  font-family: Georgia, 'Times New Roman', serif;
+}
+
+@mixin patent-section-header {
+  font-size:1.5em;
+  color:#000;
+  font-weight:600;
+}
+
+invention-title, .number-and-title .patent-number {
+  @include serif;
+  font-weight:200;
+  font-size:1.75em;
+}
+
+#intl_patents_v .number-and-title .patent-number {
+  display: none;
+}
+
+h2.kd-appname a span {
+  color:#CECECE;
+}
+
+#intl_patents_v {
+  
+  .number-and-title {
+    max-width:100%;
+    .patent-title {
+      display:block;
+      invention-title {
+        display:block;
+        text-align:center;
+      }
+    }
+  }
+
+}
+
+// Abstract
+
+.patent-abstract-section {
+  
+  margin: 5em 0;  
+  margin-bottom:1em;
+
+  .patent-section-header {
+    display: none;
+  }
+}
+
+abstract div {
+  padding-right:0;
+  width:95%;
+}
+
+abstract div.abstract {
+  margin:0 auto;
+  font-size:1.15em;
+  line-height:1.7em;
+}
+
+// Title etc.
+span.patent-section-title {
+  font: bold 12pt/16pt Helvetica, Arial, sans-serif;
+  font-weight:400;
+  letter-spacing:1px;
+}
+
+.patent-text {
+  font: 400 12pt/20pt Georgia, 'Times New Roman', serif !important;
+}
+
+// Headers
+div.patent-section-header {
+  text-align:center;
+  font-weight:600;
+  @include serif;
+
+}
+
+
+
+// Claims
+div .claim-dependent {
+  margin-left:0;
+}
+
+// Figures
+.patent-drawings-carousel {
+  border:1px #DEDEDE solid;
+}
+
+.patent-drawings-section {
+  .patent-section-header {
+    span.patent-section-title {
+
+    }
+  }
+}
+
+// Claims 
+
+div.patent-claims-section {
+  display:block;
+  float:none;
+  width:100%;
+  div.patent-section-header {
+    
+    span.patent-section-title {
+      @include serif;
+      @include patent-section-header;
+    }
+  }
+}
+
+claim-statement {
+  display:none;
+}
+
+:not(.ocr) .claim-dependent:last-child>.claim>.claim-text:last-child, :not(.ocr) .claim:last-child>.claim>.claim-text:last-child, .ocr .claim-text:last-child, .ocr .claim-text-dependent:last-child  {
+  border-width: 0px !important;
+}
+
+// Description
+div.patent-description-section {
+  .patent-section-header {
+    margin-bottom:2em;
+    .patent-section-title {
+      @include serif;
+      @include patent-section-header;
+      &:before {
+        content: 'Detailed ';
+      }
+    }
+  }
+  width:100%;
+  heading {
+    text-align:center;
+    display:block;
+    font-weight:600;
+  }
+}

@@ -1,0 +1,94 @@
+#intl_patents {
+  width: 85%%;
+  margin: auto; }
+
+.patent-bibdata {
+  width: 500px !important; }
+
+abstract div {
+  padding-right: 525px; }
+
+invention-title, .number-and-title .patent-number {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-weight: 200;
+  font-size: 1.75em; }
+
+#intl_patents_v .number-and-title .patent-number {
+  display: none; }
+
+h2.kd-appname a span {
+  color: #CECECE; }
+
+#intl_patents_v .number-and-title {
+  max-width: 100%; }
+  #intl_patents_v .number-and-title .patent-title {
+    display: block; }
+    #intl_patents_v .number-and-title .patent-title invention-title {
+      display: block;
+      text-align: center; }
+
+.patent-abstract-section {
+  margin: 5em 0;
+  margin-bottom: 1em; }
+  .patent-abstract-section .patent-section-header {
+    display: none; }
+
+abstract div {
+  padding-right: 0;
+  width: 95%; }
+
+abstract div.abstract {
+  margin: 0 auto;
+  font-size: 1.15em;
+  line-height: 1.7em; }
+
+span.patent-section-title {
+  font: bold 12pt/16pt Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  letter-spacing: 1px; }
+
+.patent-text {
+  font: 400 12pt/20pt Georgia, 'Times New Roman', serif !important; }
+
+div.patent-section-header {
+  text-align: center;
+  font-weight: 600;
+  font-family: Georgia, 'Times New Roman', serif; }
+
+div .claim-dependent {
+  margin-left: 0; }
+
+.patent-drawings-carousel {
+  border: 1px #DEDEDE solid; }
+
+div.patent-claims-section {
+  display: block;
+  float: none;
+  width: 100%; }
+  div.patent-claims-section div.patent-section-header span.patent-section-title {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 1.5em;
+    color: #000;
+    font-weight: 600; }
+
+claim-statement {
+  display: none; }
+
+:not(.ocr) .claim-dependent:last-child > .claim > .claim-text:last-child, :not(.ocr) .claim:last-child > .claim > .claim-text:last-child, .ocr .claim-text:last-child, .ocr .claim-text-dependent:last-child {
+  border-width: 0px !important; }
+
+div.patent-description-section {
+  width: 100%; }
+  div.patent-description-section .patent-section-header {
+    margin-bottom: 2em; }
+    div.patent-description-section .patent-section-header .patent-section-title {
+      font-family: Georgia, 'Times New Roman', serif;
+      font-size: 1.5em;
+      color: #000;
+      font-weight: 600; }
+      div.patent-description-section .patent-section-header .patent-section-title:before {
+        content: 'Detailed '; }
+  div.patent-description-section heading {
+    text-align: center;
+    display: block;
+    font-weight: 600; }
