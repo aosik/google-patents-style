@@ -9,3 +9,5 @@ After:
 
 ## Installation
 Clone this repo, install extension/ directory as unpacked extension for now.
+
+![Installation](https://raw.github.com/aosik/google-patents-style/master/docs/install.png)
